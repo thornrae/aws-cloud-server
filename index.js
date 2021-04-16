@@ -9,7 +9,7 @@ app.use(express.json());
 let data = {};
 
 app.get('/', (req, res) => {
-  res.status(200).send(data);
+  res.status(200).send('new shit');
 })
 
 app.post('/data', (req, res) => {
